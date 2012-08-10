@@ -1,4 +1,5 @@
 var EmberTwitter = Em.Application.create({
+  authors: "James and Joan",
   ready: function(){
     alert('Launching the EmberTwitter App!');
   }
