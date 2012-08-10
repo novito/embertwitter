@@ -10,6 +10,13 @@ EmberTwitter.store = DS.Store.create({
   adapter: DS.RESTAdapter.create({ bulkCommit: false })
 });
 
+EmberTwitter.Tweet = DS.Model.extend({
+  avatar: null,
+  screen_name: null,
+  text: null,
+  date: null
+});
+
 
 /* Views */
 EmberTwitter.MyView = Em.View.extend({
